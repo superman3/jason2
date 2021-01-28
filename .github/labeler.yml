@@ -1,0 +1,10 @@
+General Admin:
+  - any: ['config/**/*', '!config/defaults/templates/**/*']
+  - any: ['utilities/**/*', '!utilities/customer_payloads/**/*']
+  - docs/**/*
+  - .github/**/*
+  - /*
+  - example_policies/**/*
+#
+WARNING:
+  - config/**/*
