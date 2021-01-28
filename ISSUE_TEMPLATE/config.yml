@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Cloud Custodian Documentation
+    url: https://123
+    about: Customer documentation
+  - name: Cloud Custodian part 2
+    url: https://345
+    about: Customer documentation
