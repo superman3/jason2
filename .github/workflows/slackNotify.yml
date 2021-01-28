@@ -26,3 +26,4 @@ jobs:
           *{ pull_request.title }* was rejected by { review.user.login } :cry:
         SLACK_CHANNEL: corp-aws-custodian-prod
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+        USERNAME: Custodian Bot
