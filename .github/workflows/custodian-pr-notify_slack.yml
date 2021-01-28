@@ -14,7 +14,7 @@ jobs:
     - name: Slack Notification
       uses: kv109/action-ready-for-review@0.2
       env:
-        IGNORE_DRAFTS: false # Ignore draft pull requests. Default: true.
+        IGNORE_DRAFTS: true # Ignore draft pull requests. Default: true.
         PR_APPROVED_FORMAT: | # Format is fully customizable.
           *{ pull_request.title }* was approved by { review.user.login } :heavy_check_mark:
         PR_READY_FOR_REVIEW_FORMAT: |
@@ -25,5 +25,5 @@ jobs:
         PR_REJECTED_FORMAT: |
           *{ pull_request.title }* was rejected by { review.user.login } :cry:
         SLACK_CHANNEL: corp-aws-custodian-prod
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_WEBHOOK: ${{ secrets.SLACK_INFO_WEBHOOK_URL }}
         USERNAME: Custodian Bot
