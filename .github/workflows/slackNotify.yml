@@ -17,6 +17,6 @@ jobs:
         with:
           base-branch: "master"
           bot-token: ${{ secrets.SLACK_BOT_TOKEN }}
-          channel-id: "[GET_THIS_FROM_SLACK]"
+          channel-id: "C018PQJ3724"
           github-token: ${{ secrets.GH_TOKEN }}
-          slack-users: '[{ "github_username": "mlg87", "slack_id": "[GET_ME_FROM_YOUR_SLACK_WORKSPACE]" }]'
+          slack-users: '[{ "github_username": "superman3", "slack_id": "https://sainsburys-tech.slack.com/team/U017HULA4H0" }]'
